@@ -8,7 +8,7 @@
 
 This repository leverages [mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook) to set up my MacBook, install various packages, and symlink my dotfiles.
 
-### Checout this repo
+### Clone this repo
 ``` bash
 mkdir -p ~/repos 
 git clone https://github.com/JonasHess/mac-os-setup.git ~/repos/mac-os-setup
