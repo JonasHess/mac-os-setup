@@ -43,6 +43,7 @@ dotfiles_files:
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
+  - ansible
   - argocd
   - argocd-autopilot
   - autoconf
@@ -87,6 +88,7 @@ homebrew_installed_packages:
   - openssl
   - php
   - ranger
+  - rclone
   - rust
   - speedtest-cli
   - sqlite
@@ -114,6 +116,7 @@ homebrew_cask_apps:
   # - chromedriver
   # - amazon-photos
   - brave-browser
+  - bitwarden
   - chromium
   - rectangle
   - dbeaver-community
