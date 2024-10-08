@@ -46,33 +46,31 @@ homebrew_installed_packages:
   - ansible
   - argocd
   - argocd-autopilot
+  - atool
   - autoconf
   - awscli
   - azure-cli
   - bash-completion
   - bat
   - curl
-  - highlight
   - doxygen
-  - fzf
+  - fblog
   - ffmpeg
+  - fzf
   - gettext
-  - unar
   - gh
   - gifsicle
   - git
-  - atool
   - go
   - gpg
   - helm
+  - highlight
   - htop
-  - sevenzip
   - httpie
   - iperf
   - istioctl
   - jenv
   - jq
-  - pipx
   - k9s
   - kubernetes-cli
   - lazydocker
@@ -87,9 +85,11 @@ homebrew_installed_packages:
   - nvm
   - openssl
   - php
+  - pipx
   - ranger
   - rclone
   - rust
+  - sevenzip
   - speedtest-cli
   - sqlite
   - ssh-copy-id
@@ -97,6 +97,8 @@ homebrew_installed_packages:
   - tmux
   - toilet
   - tree-sitter
+  - unar
+  - util-linux
   - wget
   - wireshark
   - yarn
@@ -110,36 +112,43 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - firefox
-  - alacritty
-  # - google-chrome
-  # - chromedriver
   # - amazon-photos
+  # - chromedriver
+  # - google-chrome
+  - adobe-acrobat-reader
+  - alacritty
+  - bitwarden
   - brave-browser
   - bitwarden
   - chromium
-  - rectangle
   - dbeaver-community
   - docker
   - drawio
+  - elgato-camera-hub
+  - firefox
   - font-jetbrains-mono-nerd-font
   - google-cloud-sdk
   - handbrake
   - intellij-idea
+  - kdiff3
   - licecap
   - logi-options-plus
+  - microsoft-edge
   - microsoft-office
+  - microsoft-remote-desktop
   - microsoft-teams
+  - nordvpn
   - pycharm
+  - raycast
+  - rectangle
   - sequel-ace
-  - kdiff3
   - slack
   - spotify
   - sublime-text
   - transmit
   - visual-studio-code
   - vlc
-  - elgato-camera-hub
+  - whatsapp
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
